@@ -1,10 +1,11 @@
+<?php include "routes/Router.php"; ?>
 <nav>
     <div class="nav-wrapper navbar">
-        <a href="#"><img class="logo" src="src/img/sad.png" /></a>
+        <a href="<?php $router->toHomePage(); ?>"><img class="logo" src="src/img/sad.png" /></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="/pages/login/login.php" class="link">Login</a></li>
-            <li><a href="/pages/register/register.php" class="link">Cadastre-se</a></li>
-            <li><a href="/pages/us/us.php" class="link">Sobre nós</a></li>
+            <li><a href="<?php $router->toPages('login'); ?>" class="link">Login</a></li>
+            <li><a href="<?php $router->toPages('register'); ?>" class="link">Cadastre-se</a></li>
+            <li><a href="<?php $router->toPages('sobre'); ?>" class="link">Sobre nós</a></li>
         </ul>
     </div>
 </nav>

@@ -12,18 +12,10 @@
 </head>
 
 <body>
-    <?php include "components/navbar.php"; ?>
-    <div class="container center">
-        <h4>Only Sad Reactions</h4>
 
-        <div class="row">
-            <?php include "components/card.php"; ?>
-        </div>
-    </div>
+    <?php include "pages/home/home.php"; ?>
     <!--  Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- <?php include "components/footer.php"; ?> -->
-
 </body>
 
 </html>

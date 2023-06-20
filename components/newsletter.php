@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row newsletter">
     <form action="<?php $router->toSrc('Controller/NewsLetter', 'NewsLetter.php'); ?>" METHOD='POST'>
         <div class="col s6 offset-s3">
             <input type="text" placeholder="E-mail" name="email" required>

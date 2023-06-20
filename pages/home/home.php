@@ -8,3 +8,4 @@
     include_once "components/newsletter.php";
     ?>
 </div>
+<?php include_once "components/footer.php"; ?>

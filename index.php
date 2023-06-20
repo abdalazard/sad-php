@@ -1,4 +1,4 @@
-<?php include 'routes/Router.php'; ?>
+<?php include_once 'routes/Router.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include 'pages/home/home.php'; ?>
+    <?php include_once 'pages/home/home.php'; ?>
 
     <!--  Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

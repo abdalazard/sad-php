@@ -1,9 +1,9 @@
-    <!-- Homepage -->
+<!-- Homepage -->
 
-    <?php include "components/navbar.php"; ?>
-    <div class="container center">
-        <?php
-        include "components/title.php";
-        include "components/card.php";
-        ?>
-    </div>
+<?php include_once "components/navbar.php"; ?>
+<div class="container center">
+    <?php
+    include_once "components/title.php";
+    include_once "components/card.php";
+    ?>
+</div>

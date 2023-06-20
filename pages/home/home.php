@@ -5,5 +5,6 @@
     <?php
     include_once "components/title.php";
     include_once "components/card.php";
+    include_once "components/newsletter.php";
     ?>
 </div>

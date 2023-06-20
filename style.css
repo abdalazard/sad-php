@@ -29,3 +29,13 @@ p {
     color: #6c6c6c;
 
 }
+
+.button {
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    background: #eeeeee;
+    color: black;
+}

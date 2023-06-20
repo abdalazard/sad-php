@@ -1,4 +1,3 @@
-<?php include "routes/Router.php"; ?>
 <nav>
     <div class="nav-wrapper navbar">
         <a href="<?php $router->toHomePage(); ?>"><img class="logo" src="src/img/sad.png" /></a>

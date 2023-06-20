@@ -26,6 +26,6 @@ class Router
 
     public function toSrc($folder, $file)
     {
-        echo $this->route = "../src/" . $folder . "/" . $file . ".php";
+        echo $this->route = "../src/" . $folder . "/" . $file;
     }
 }
